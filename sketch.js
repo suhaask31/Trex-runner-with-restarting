@@ -90,7 +90,6 @@ function draw() {
     ground.velocityX = -(4 + 3* score/100)
     //scoring
     score = score + Math.round(getFrameRate()/60);
-    console.log(getFrameRate())
     
     
     if(score>0 && score%100 === 0){
